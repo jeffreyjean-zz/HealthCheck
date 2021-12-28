@@ -8,21 +8,27 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
 		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Debug|ARM.ActiveCfg = Debug|x64
 		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Debug|ARM.Build.0 = Debug|x64
+		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Debug|ARM64.Build.0 = Debug|ARM64
 		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Debug|x64.ActiveCfg = Release|x64
 		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Debug|x64.Build.0 = Release|x64
 		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Debug|x86.ActiveCfg = Debug|Win32
 		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Debug|x86.Build.0 = Debug|Win32
 		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Release|ARM.ActiveCfg = Release|x64
 		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Release|ARM.Build.0 = Release|x64
+		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Release|ARM64.ActiveCfg = Release|ARM64
+		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Release|ARM64.Build.0 = Release|ARM64
 		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Release|x64.ActiveCfg = Release|x64
 		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Release|x64.Build.0 = Release|x64
 		{FA44CD6A-1D40-457A-945B-AE60F994A0A6}.Release|x86.ActiveCfg = Release|Win32

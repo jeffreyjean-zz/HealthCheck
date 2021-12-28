@@ -16,6 +16,11 @@ int main()
     bool bExistsAndSuccess = (lRes == ERROR_SUCCESS);
     LONG nError = ERROR_INVALID_FUNCTION;
 
+#ifdef _ARM64_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE
+    printf("%s: ARM64\n", __FUNCTION__);
+#else
+    printf("%s: X64\n", __FUNCTION__);
+#endif 
     if (bExistsAndSuccess)
         printf("Registry key %ls found\n", keyPath);
     else
