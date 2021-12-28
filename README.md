@@ -1,2 +1,2 @@
 # HealthCheck
-Health check for prototype platform
+One stop checking for various system configuration
